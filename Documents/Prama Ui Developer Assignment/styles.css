@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    background-color: #b9b9b9;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .textAlign{
+      text-align: center;
+  }
+  .marginLeft40{
+      margin-left: 40px;
+  }
+  .marginTop40{
+    margin-top: 40px;
+  }
+
+  .cardBGColor{
+      background-color: #B9B9B9;
+  }
+
+
+  .sideMenu{
+      margin: 20px 0px;
+  }
+
+  .container {
+    border: 1px solid black;
+    width: 20%;
+    height: 1000px;
+  }
+
+  .filterDetails {
+    margin: 10px 0px;
+  }
+
+  .checked {
+    color: limegreen;
+  }
+  .iconColor {
+    color: dodgerblue;
+  }
+  .enquiryIconColor {
+    color: gray;
+  }
+  .companyDetailsWidth {
+    width: 72%;
+  }
+  .fontSize25 {
+    font-size: 25px;
+  }
+
+  .cardDetails:hover .hideCardDetails{
+      display: block;
+  }
+
+  .hideCardDetails{
+      display: none;
+  }
+
+
+
+
+  .hoverable:not(:hover) + .show-on-hover {
+    display: none;
+}
